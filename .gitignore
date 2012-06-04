@@ -23,3 +23,10 @@
 # /web/WEB-INF/
 /web/WEB-INF/classes
 /web/WEB-INF/deploy
+
+target/
+
+# Ignore unwanted IntelliJ IDEA project files
+*.ipr
+*.iml
+*.iws
