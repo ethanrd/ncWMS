@@ -30,21 +30,21 @@
 
   <distributionManagement>
     <repository>
-      <id>ncwms-releases</id>
-      <name>ncWMS Releases</name>
-      <url>http://artifacts.unidata.ucar.edu:8081/content/repositories/thredds-3rdparty/</url>
+      <id>unidata-3rdparty</id>
+      <name>Unidata 3rd-Party Repository</name>
+      <url>https://artifacts.unidata.ucar.edu/content/repositories/unidata-3rdparty/</url>
     </repository>
-    <snapshotRepository>
-      <id>ncwms-snapshots</id>
-      <name>ncWMS Snapshots</name>
-      <url>http://artifacts.unidata.ucar.edu:8081/content/repositories/thredds-3rdparty/</url>
-    </snapshotRepository>
   </distributionManagement>
   <repositories>
     <repository>
-      <id>thredds</id>
-      <name>THREDDS</name>
-      <url>http://artifacts.unidata.ucar.edu:8081/content/repositories/thredds/</url>
+      <id>unidata</id>
+      <name>Unidata Repository</name>
+      <url>https://artifacts.unidata.ucar.edu/content/repositories/unidata/</url>
+    </repository>
+    <repository>
+      <id>unidata-3rdparty</id>
+      <name>Unidata 3rd Party Repository</name>
+      <url>https://artifacts.unidata.ucar.edu/content/repositories/unidata-3rdparty/</url>
     </repository>
     <repository>
       <id>mvnsearch</id>
